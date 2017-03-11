@@ -25,4 +25,7 @@ class Welcome extends CI_Controller {
 	public function xyz(){
 		$this->load->view('welcome_message');
 	}
+	public function zzz(){
+		$this->load->view('welcome_message');
+	}
 }
